@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Beautiful Clock Timer</title>
+    <style>
+      body {
+        margin: 0;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: linear-gradient(135deg, #7a6bff, #ff6b6b);
+        font-family: Inter, sans-serif;
+      }
+      .clock {
+        color: #fff;
+        font-size: clamp(40px, 8vw, 100px);
+        font-weight: 700;
+        text-align: center;
+        padding: 30px 50px;
+        border-radius: 20px;
+        background: rgba(255, 255, 255, 0.1);
+        backdrop-filter: blur(10px);
+        box-shadow: 0 8px 30px rgba(0, 0, 0, 0.3);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="clock" id="clock">00:00:00</div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
